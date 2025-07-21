@@ -1,11 +1,11 @@
 mod initialization;
+mod ownership;
 
 use burn::tensor::Tensor;
 use burn::backend::Cuda;
 
 // Type alias for the backend to use.
 type Backend = Cuda;
-
 
 fn main() {
     let device = Default::default();
