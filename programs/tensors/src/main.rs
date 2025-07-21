@@ -1,5 +1,6 @@
 mod initialization;
 mod ownership;
+mod display;
 
 use burn::tensor::Tensor;
 use burn::backend::Cuda;
