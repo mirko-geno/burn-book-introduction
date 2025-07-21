@@ -1,9 +1,6 @@
 use burn::tensor::Tensor;
 use burn::backend::Cuda;
 
-/*
-
-*/
 
 fn _main() {
     type Backend = Cuda;
